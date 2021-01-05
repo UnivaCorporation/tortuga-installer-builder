@@ -1,4 +1,4 @@
-from centos:7.7
+from centos:7.7.1908
 ENV container docker
 RUN yum -y install bzip2 which rsync nfs-utils initscripts
 STOPSIGNAL SIGRTMIN+3
